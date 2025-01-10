@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="CompileReport" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+  <configuration default="false" name="CompileGreekReport" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
     <texify>
       <compiler>LUALATEX</compiler>
       <compiler-path />
@@ -9,10 +9,10 @@
       <compiler-arguments />
       <envs />
       <before-run-command />
-      <main-file>$PROJECT_DIR$/searchenginedocs/src/report.tex</main-file>
+      <main-file>$PROJECT_DIR$/searchenginedocs/src/report_greek.tex</main-file>
       <output-path>$PROJECT_DIR$/searchenginedocs/out</output-path>
       <auxil-path>{projectDir}/auxil</auxil-path>
-      <compile-twice>true</compile-twice>
+      <compile-twice>false</compile-twice>
       <output-format>PDF</output-format>
       <latex-distribution>TEXLIVE</latex-distribution>
       <has-been-run>true</has-been-run>
